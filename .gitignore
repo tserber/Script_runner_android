@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Android / Gradle
+*.iml
+.gradle/
+local.properties
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+build/
+app/release/
+*.apk
+*.aab
+*.jks
+*.keystore

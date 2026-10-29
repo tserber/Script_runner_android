@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Secrets DB is excluded from backup/restore on purpose: API keys never leave this device. -->
+    <exclude domain="database" path="secrets.db" />
+    <exclude domain="sharedpref" path="bot_secrets.xml" />
+</full-backup-content>
